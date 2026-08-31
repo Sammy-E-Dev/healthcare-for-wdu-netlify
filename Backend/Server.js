@@ -50,7 +50,7 @@ io.on("connection", (socket) => {
   });
 })
 
-const port = process.env.PORT || 4000
+const PORT = process.env.PORT || 4000
 
 connetDB()
 connectCloudinary()
@@ -86,4 +86,7 @@ app.get('/',(req,res) =>{
 //   console.log("Server running on port 4000");
 // });
 // app
-server.listen(port, ()=> console.log('server started', port))
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server running on PORT ${PORT}`);
+});
+// server.listen(port, ()=> console.log('server started', port))
