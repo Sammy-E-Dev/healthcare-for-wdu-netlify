@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react'
 import { DoctorContext } from '../../context/doctorContext'
 import {assets} from '../../assets/assets_admin/assets'
 import { AdminContext } from '../../context/adminContext'
-import { AppContext } from '../../context/AppContext'
+import { AppContext } from '../../context/appContext'
 import { MdQueue } from "react-icons/md";
 import { MdFormatListNumbered } from "react-icons/md";
 

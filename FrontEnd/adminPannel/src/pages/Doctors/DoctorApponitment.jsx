@@ -2,7 +2,7 @@ import React from 'react'
 import { useContext } from 'react'
 import { DoctorContext } from '../../context/doctorContext'
 import { useEffect } from 'react'
-import {AppContext} from '../../context/AppContext'
+import {AppContext} from '../../context/appContext'
 import {assets} from '../../assets/assets_admin/assets'
 import { FaCalendarCheck } from "react-icons/fa";
 import { MdDateRange } from "react-icons/md";
