@@ -18,7 +18,7 @@ const app = express()
 const server = http.createServer(app)
 const allowedOrigins = [
   "https://wdu-healthcare.netlify.app",
-  "http://localhost:5174",
+  "https://adminpannel-for-wdu.netlify.app",
 ];
 
 app.use(cors({
@@ -77,7 +77,7 @@ app.use('/api/user', userRouter)
 // localhost:4000/api/user/register
 
 app.use('/api/queue', QueueRouter)
-// localhost:4000/api/user/register
+// localhost:4000/api/queue/list
 
 app.use("/api/consultation", consultationRouter);
 // localhost:4000/api/consultationRouter/register
